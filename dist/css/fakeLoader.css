@@ -1,0 +1,2 @@
+.no-js #loader  { display: none;  }
+    .js #loader { display: block; position: absolute; height: 100%; }
