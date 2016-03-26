@@ -890,7 +890,7 @@ We understand you before we understand your product</div>
         <div class="team-img team1-img" ></div>
         <p class="team-item-heading margin-10">Mahesh Subramanian</p>
          <p class="team-item-sub-heading">Founder, Managing Director</p>
-        <p class="teamheight-item-text">Mr. Subramanian is the founder of Ideal Tech Labs and an accomplished innovator with vast experience in delivery of high performance software solutions. His experience spans various industries and verticals including retail, shipping, logistics, healthcare and ecommerce among others. In his 15 years of technology and leadership experience, he has worked in around 12 countries building successful teams in the process. He has implemented several products/applications partnering with CXO&#39;s creating IT value through innovation. He has an avid automobile enthusiast and loves spending time at the beach.</p>
+        <p class="teamheight-item-text">Mr. Subramanian is the founder of Ideal Tech Labs and an accomplished innovator with vast experience in delivery of high performance software solutions. His experience spans various industries and verticals including retail, shipping, logistics, healthcare and ecommerce among others. In his 15 years of technology and leadership experience, he has worked in around 12 countries building successful teams in the process. He has implemented several products/applications partnering with CXO&#39;s creating IT value through innovation. He is an avid automobile enthusiast and loves spending time at the beach.</p>
         </div>
       </div>
     </div>
@@ -912,7 +912,7 @@ We understand you before we understand your product</div>
         <div class="col-md-8">
          <p class="team-item-heading margin-10">Shivaji Chelladurai</p>
          <p class="team-item-sub-heading">Director, Software Engineering</p>
-         <p class="teamheight-item-text">Mr. Chelladurai has over 18 years of experience in application development in the retail, health insurance, and the logistics industries. Mr. Chelladurai has worked at organizations such as IBM, Tata, Cognizant as an enterprise architect. As a recognized leader in the industry with a proven track record in fortune 500 companies, he is a key member at Ideal Tech Labs. Shivaji holds an engineering degree from the PSG College of Technology. In his pastime, he enjoys swimming and cycling.</p>
+         <p class="teamheight-item-text">Mr. Chelladurai has over 18 years of experience in application development in the retail, health insurance, and the logistics industries. Mr. Chelladurai has worked at organizations such as IBM, Tata, Cognizant as an enterprise architect. As a recognized leader in the industry with a proven track record in fortune 500 companies, he is a key member at Ideal Tech Labs. Shivaji holds an engineering degree from the PSG College of Technology. In his passtime, he enjoys swimming and cycling.</p>
         </div>
       </div>
     </div>
@@ -1283,12 +1283,7 @@ Ph: +91-044-42994358 <br/>
   			}, 200);
 			});
 
-			$('#Technologybutton').click(function() {
-  			$('html, body').animate({
-  			scrollTop: $("#technology").offset().top - 75
-  			}, 200);
-			});
-
+		
 			$('#Careerbutton').click(function() {
   			$('html, body').animate({
   			scrollTop: $("#careers").offset().top - 75
@@ -1550,7 +1545,38 @@ var selectedlocation = $(this).val();
         $("#team").height(screen.height-223);
     $("#contact").height(screen.height-223);
     }
+var windowsize=$(window).width();
+if(windowsize<480)
+{
+    $('#Technologybutton').click(function() {
+        $('html, body').animate({
+        scrollTop: $("#technology").offset().top + 1050
+        }, 1200);
+      });
 
+}
+else if(windowsize==768){
+   $('#Technologybutton').click(function() {
+        $('html, body').animate({
+        scrollTop: $("#technology").offset().top + 482
+        }, 1200);
+      });
+}
+else if(windowsize<1024){
+  $('#Technologybutton').click(function() {
+        $('html, body').animate({
+        scrollTop: $("#technology").offset().top - 200
+        }, 1200);
+      });
+}
+else{
+    $('#Technologybutton').click(function() {
+        $('html, body').animate({
+        scrollTop: $("#technology").offset().top - 75
+        }, 1200);
+      });
+
+}
 /*
     $(document).ready(function () {
      var content1 = [

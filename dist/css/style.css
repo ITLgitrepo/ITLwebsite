@@ -608,7 +608,7 @@ a:hover {
 }
 .show-sub-header{
     float: left;
-    width: 50%;
+    width: 35%;
     border-left: 1px solid #666666;
     padding-left: 10px;
     /*opacity: 0.7;*/
@@ -1515,6 +1515,9 @@ background-repeat:no-repeat;
 .carrer-item{
   margin-bottom: 10px;
 }
+.career-content{
+    margin-top:8%;
+}
 .showskill_height_70{
   height: auto;
 }
@@ -1639,7 +1642,7 @@ height: 91%;
     border-left: 2px solid #cccccc;
     padding-left: 15px;
     margin-top: 7px;
-    font-size: 12px;
+    font-size: 14px;
     }
 .vertical-header{
   width: 100px;
@@ -1889,10 +1892,13 @@ height: 88%;
     float: left;
     max-height: 50px;
     margin-left: 10px;
-    padding-top: 10px;
 }
-.logo_height,.navheight{
+.navheight{
   max-height: 50px;
+}
+.logo_height{
+  max-height: 50px;
+  width: 120px;
 }
 .navbar-toggle{
   margin-right: 40px;
