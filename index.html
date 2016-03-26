@@ -8,7 +8,13 @@
 		<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"> --><!-- 
         <link rel="stylesheet" href="dist/css/font-awesome.min.css"> -->
 
-         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"><!-- 
+		 <link rel="stylesheet" href="dist/css/font-awesome.min.css"> -->
+		 <link rel="preload" href="dist/raleway/Raleway-Bold.ttf" as="font">
+		 <link rel="preload" href="dist/raleway/Raleway-ExtraBold.ttf" as="font">
+		 <link rel="preload" href="dist/raleway/Raleway-Thin.ttf" as="font">
+		 <link rel="preload" href="dist/raleway/Raleway-Regular.ttf" as="font">
+		 <link rel="reload" href="dist/raleway/Raleway-Medium.ttf" as="font">
         <link rel="stylesheet" href="dist/css/bootstrap.min.css"><!-- 
         <link rel = "stylesheet" href = "dist/css/jqcloud.min.css" > -->
         <link rel="stylesheet" href="dist/css/jquery-ui.css">
@@ -37,21 +43,7 @@
   ga('send', 'pageview');
 
 </script>
-<script type="text/javascript">
-  var myimages=new Array()
-function preloadimages(){
-for (i=0;i<preloadimages.arguments.length;i++){
-myimages[i]=new Image()
 
-myimages[i].src=preloadimages.arguments[i]
-
-}
-}
-
-
-//Enter path of images to be preloaded inside parenthesis. Extend list as desired.
-preloadimages("http:idealtechlabs.com/dist/image/banner/Banner-img.jpg","http:idealtechlabs.com/dist/image/banner/software_development_services.jpg","http:idealtechlabs.com/dist/image/banner/Professional_Support.jpg","http:idealtechlabs.com/dist/image/banner/partner.jpg")
-</script>
 		<!-- script end -->
 	</head>
 	<body>
@@ -154,7 +146,8 @@ preloadimages("http:idealtechlabs.com/dist/image/banner/Banner-img.jpg","http:id
                       <li><a class="menu" id="Verticalsbutton" >Verticals</a></li>
                       <li><a class="menu" id="Technologybutton" >Technology</a></li>
                       <li><a class="menu" id="Showcasebutton" >showcase</a></li>
-                      <li><a class="menu" id="Careerbutton" >careers</a></li>    
+                      <li><a class="menu" id="Careerbutton" >careers</a></li> 
+                      <li><a class="menu" id="Teambutton" >Team</a></li>       
                       <li><a class="menu" id="Contactbutton" >Contact</a></li>
                   </ul>
               </div>
@@ -720,9 +713,12 @@ We understand you before we understand your product</div>
 	    		<div class="col-md-6 col-sm-12 col-xs-12 show wow fadeIn" data-wow-duration="0.9s" data-wow-delay="0.9s">
 	    			<div class="col-md-12 col-sm-12 guide">
 	    				<img src="dist/image/showskill/navis_servicesolutions.jpg"  width="100%"><br/><br/>
-                        <p class="partner_detail">Together with our truly global clients, we have created and delivered technology and business solutions across geographies with a borderless approach to innovation.</p><p class="partner_detail"> We believe in collaborative problem solving and make every effort to transform good ideas into awesome products and solutions.
-                        We take pride in the fact that we are a preferred partner for Navis, market leader for terminal operating systems.</p>
-	    			</div>
+                        <p class="partner_detail">Ideal Tech Labs has in the past executed multiple TOS projects in collaboration with Navis on products like Sparcs N4, EDI and Navis Automation A4. Through our professional services unit, we have gained vast experience in N4 implementations and this partnership opens the gate for marine terminals and Navis customers to work closely with Ideal Tech Labs.</p>
+						<p class="partner_detail">We believe in collaborative problem solving and make every effort to transform good ideas into awesome products and solutions. We take pride in the fact that we are a preferred partner for Navis, market leader for terminal operating systems.</p>
+						<p class="partner_detail">Looking for expertise in EDI configurations, maps or new message implementations in TOS?</p>
+						<p class="partner_detail">Need help in configuring N4 or N4 extensions in Groovy?</p>
+						<p class="partner_detail">Feel free to reach out to us at consult@idealtechlabs.com</p>
+					</div>
 	    			<!-- <div class="col-md-12 col-sm-12">
 	    				<p>Together with our truly global clients, we has created and delivered technology and business solutions across geographies with a borderless approach to innovation. We believe in collaborative problem solving and makes every effort to transform good ideas into awesome products and solutions.</p>
 	    				<p>We take pride in the fact that we are a preferred partner for Navis, market leader for terminal operating systems.</p>
@@ -765,78 +761,166 @@ We understand you before we understand your product</div>
                     </div>
        	</div>
     <!-- show case end-->
-    <!-- carrer START -->
-    <div class="main-career-container row " id="careers" >
-     		<div class="content-center sub-career-container row">
-    		<div class="career-header">CAREERS</div>
-    	<div class="career-sub-header">Make the most of who you are. Look here for your next move</div>
-      <div class="career-content  wow slideInLeft">
-<div class="row" >
-  <div class="col-md-8 col-lg-12 career_width">
-    <div class="col-md-12 col-sm-12 col-xs-12 " data-wow-duration="1.2s" data-wow-delay="1.2s">
-                <!-- <div class="col-md-12">
-                    <div class="carrer-image">
-                    <img src="dist/image/career/career.jpg" />
-                </div> -->
-        <div class="col-md-6 col-sm-6 col-xs-6 carrer-item">
-            <!-- <div class="career-item-img">
-              <img src="dist/image/career/1.jpg" class="carrer-img" />
-            </div> -->
-            <div class="career-item-content">
-              <p class="career-item-heading">Software UX Developer</p>
-              <p class="career-item-text">2+ years, Angular JS, Directives, Filters, Modern JS frameworks, architecture, high performance, low latency, scalability </p>
-              <div class="career-button career-but" align="center"><a href="mailto:hr@idealtechlabs.com" class="career-item-button">Yeah that's me!</a></div>
+
+
+
+    
+<!-- carrer START -->
+    <div id="careers">
+      <div id="mycarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#mycarousel" data-slide-to="1"></li>
+        </ol>
+
+      <div class="carousel-inner" role="listbox">
+        <div class="item setheight active">
+          <div class="main-career-container row setheight">
+            <div class="content-center sub-career-container row">
+              <div class="career-header">CAREERS</div>
+              <div class="career-sub-header">Make the most of who you are. Look here for your next move</div>
+                <div class="career-content  wow slideInLeft">
+                  
+                  <div class="row" >
+                    <div class="col-md-8  career_width" >
+                      <div class="col-md-12 col-sm-12 col-xs-12 " data-wow-duration="1.2s" data-wow-delay="1.2s">
+                      <!-- <div class="col-md-12">
+                      <div class="carrer-image">
+                      <img src="dist/image/career/career.jpg" />
+                      </div> -->
+                        <div class="col-md-6 col-sm-6 col-xs-6 carrer-item">
+                        <!-- <div class="career-item-img">
+                          <img src="dist/image/career/1.jpg" class="carrer-img" />
+                        </div> -->
+                          <div class="career-item-content">
+                            <p class="career-item-heading">Software UX Developer</p>
+                            <p class="career-item-text">2+ years, Angular JS, Directives, Filters, Modern JS frameworks, architecture, high performance, low latency, scalability </p>
+                            <div class="career-button career-but" align="center"><a href="mailto:hr@idealtechlabs.com" class="career-item-button">Yeah that's me!</a></div>
+                          </div>
+                        </div>
+            
+                        <div class="col-md-6 col-sm-6 col-xs-6 carrer-item">
+                        <!-- <div class="career-item-img">
+                          <img src="dist/image/career/2.jpg" class="carrer-img" />
+                        </div> -->
+                          <div class="career-item-content"> 
+                            <p class="career-item-heading">Junior Tech Developer</p>
+                            <p class="career-item-text">2+ years, Open Source Frameworks, App Servers, RDBMS, Deployment, Design Patterns, DB Software, Unit Testing</p>
+                            <div class="career-button career-but" align="center"><a href="mailto:hr@idealtechlabs.com" class="career-item-button">Yeah that's me!</a></div>
+                          </div>
+                        </div> 
+                      </div> 
+                    </div>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-md-8 career_width">
+                      <div class="col-md-12 col-sm-12 col-xs-12 " data-wow-duration="1.2s" data-wow-delay="1.2s">
+                        <div class="col-md-6 col-sm-6 col-xs-6 carrer-item">
+                          <!-- <div class="career-item-img">
+                            <img src="dist/image/career/3.jpg" class="carrer-img" />
+                          </div> -->
+                          <div class="career-item-content">
+                            <p class="career-item-heading">Senior Tech Developer, Dot Net</p>
+                            <p class="career-item-text">4+ years, Full Stack Software, Open Source Expertise, ASP, ADO, Application Architectures, MVC, OOP</p>
+                            <div class="career-button career-but" align="center"><a href="mailto:hr@idealtechlabs.com" class="career-item-button">Yeah that's me!</a></div>
+                          </div>
+                        </div>
+          
+                        <div class="col-md-6 col-sm-6 col-xs-6 carrer-item">
+                          <!-- <div class="career-item-img">
+                            <img src="dist/image/career/4.jpg" class="carrer-img" />
+                          </div> -->
+                          <div class="career-item-content">
+                            <p class="career-item-heading">Senior Tech Developer, JAVA</p>
+                            <p class="career-item-text">4+ years, Full Stack Software, Open Source Expertise, OOP, SDLC, Application Architectures, RDBMS</p>
+                            <div class="career-button career-but" align="center"><a href="mailto:hr@idealtechlabs.com" class="career-item-button">Yeah that's me!</a></div>
+                          </div>
+                        </div>
+                      </div>  
+                    </div>
+                  </div>
+          
+                </div>        
+              </div>
             </div>
           </div>
-          <div class="col-md-6 col-sm-6 col-xs-6 carrer-item">
-            <!-- <div class="career-item-img">
-              <img src="dist/image/career/2.jpg" class="carrer-img" />
-            </div> -->
-             <div class="career-item-content"> 
-              <p class="career-item-heading">Junior Tech Developer</p>
-              <p class="career-item-text">2+ years, Open Source Frameworks, App Servers, RDBMS, Deployment, Design Patterns, DB Software, Unit Testing</p>
-              <div class="career-button career-but" align="center"><a href="mailto:hr@idealtechlabs.com" class="career-item-button">Yeah that's me!</a></div>
+    
+          <div class="item setheight">
+            <div class="main-career-container2 setheight row">
+              <div class="content-center sub-career-container row">
+                <div class="career-header">CAREERS</div><!-- 
+                <div class="career-sub-header">Section 1.10.32 of "de Finibus Bonorum et Malorum"</div> -->
+                  <div class="career-content visible wow slideInLeft">
+                    <h3 class="career2-title-thin">In our truly open culture, employees love to work, play, travel across the world and create cool things. Together.<!-- <SPAN style="font-family: Raleway-bold;">CONSULTING</SPAN> --></h3>
+                    <p class="banner-description">Fancy yourself? Come into our world!</p>
+                  </div>        
+              </div>
             </div>
-            
-          </div> 
-          </div> 
+          </div>
+      </div>
+
+      <!-- Controls -->
+        <a class="left carousel-control left-center" href="#myCarousel" role="button" data-slide="prev">
+      <i class="fa fa-chevron-left fa-2x"></i>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control left-center" href="#myCarousel" role="button" data-slide="next">
+     <i class="fa fa-chevron-right fa-2x"></i>
+      <span class="sr-only">Next</span>
+    </a>
+     
+    </div>
+  </div>
+
+ <!-- carrer END -->
+
+
+    <!-- Team START -->
+  <div class="main-team-container row " id="team" >
+  <div class="content-center sub-team-container row">
+  <div class="team-header">Management Team</div>
+  <div class="team-sub-header">Our management team that drives the vision &amp; mission of Ideal Tech.</div>
+    <div class="team-content ">
+     <div class="row">
+  <div class="col-md-12 col-xs-12">
+    <div class="col-md-5 col-xs-12">
+      <div class="col-md-12">
+        <div class="text-center">
+        <div class="team-img team1-img" ></div>
+        <p class="team-item-heading margin-10">Mahesh Subramanian</p>
+         <p class="team-item-sub-heading">Founder, Managing Director</p>
+        <p class="teamheight-item-text">Mr. Subramanian is the founder of Ideal Tech Labs and an accomplished innovator with vast experience in delivery of high performance software solutions. His experience spans various industries and verticals including retail, shipping, logistics, healthcare and ecommerce among others. In his 15 years of technology and leadership experience, he has worked in around 12 countries building successful teams in the process. He has implemented several products/applications partnering with CXO&#39;s creating IT value through innovation. He has an avid automobile enthusiast and loves spending time at the beach.</p>
         </div>
       </div>
-      <div class="row">
-  <div class="col-md-8 col-lg-12 career_width">
-          <div class="col-md-12 col-sm-12 col-xs-12 mobile_paddig" data-wow-duration="1.2s" data-wow-delay="1.2s">
-          <div class="col-md-6 col-sm-6 col-xs-6 carrer-item">
-            <!-- <div class="career-item-img">
-              <img src="dist/image/career/3.jpg" class="carrer-img" />
-            </div> -->
-            <div class="career-item-content">
-              <p class="career-item-heading">Senior Tech Developer, Dot Net</p>
-              <p class="career-item-text">4+ years, Full Stack Software, Open Source Expertise, ASP, ADO, Application Architectures, MVC, OOP</p>
-              <div class="career-button career-but" align="center"><a href="mailto:hr@idealtechlabs.com" class="career-item-button">Yeah that's me!</a></div>
-            </div>
-          </div>
-          <div class="col-md-6 col-sm-6 col-xs-6 carrer-item">
-            <!-- <div class="career-item-img">
-              <img src="dist/image/career/4.jpg" class="carrer-img" />
-            </div> -->
-           <div class="career-item-content">
-              <p class="career-item-heading">Senior Tech Developer, JAVA</p>
-              <p class="career-item-text">4+ years, Full Stack Software, Open Source Expertise, OOP, SDLC, Application Architectures, RDBMS</p>
-              <div class="career-button career-but" align="center"><a href="mailto:hr@idealtechlabs.com" class="career-item-button">Yeah that's me!</a></div>
-            </div>
-          </div>
-              </div>  
+    </div>
+    <div class="col-md-7 col-xs-12">
+      <div class="col-md-12">
+        <div class="col-md-4">
+           <div class="team-img team3-img" ></div>
+        </div>
+        <div class="col-md-8">
+          <p class="team-item-heading margin-10">Sripad Dattaji Rao</p>
+          <p class="team-item-sub-heading">VP, Engineering Business &amp; Delivery</p>
+          <p class="teamheight-item-text">Mr. Sripad has been in the IT industry for over 28 years and his career spans across many areas like software development, System and Application Administration, and Infrastructure management. Early in his career Mr. Sripad was an IBM AIX consultant and spent over 6 six years in the US. After a successful stint in the US, Mr Sripad returned to India to head the Global Resource Center for Pentasoft. At Ideal Tech, he passionately leads our Product and Emerging Business divisions. He is a Linux/Unix guru and loves building new products from scratch.</p>
+        </div>
+      </div>
+        <div class="col-md-12">
+        <div class="col-md-4">
+           <div class="team-img team2-img" ></div>
+        </div>
+        <div class="col-md-8">
+         <p class="team-item-heading margin-10">Shivaji Chelladurai</p>
+         <p class="team-item-sub-heading">Director, Software Engineering</p>
+         <p class="teamheight-item-text">Mr. Chelladurai has over 18 years of experience in application development in the retail, health insurance, and the logistics industries. Mr. Chelladurai has worked at organizations such as IBM, Tata, Cognizant as an enterprise architect. As a recognized leader in the industry with a proven track record in fortune 500 companies, he is a key member at Ideal Tech Labs. Shivaji holds an engineering degree from the PSG College of Technology. In his pastime, he enjoys swimming and cycling.</p>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
-    	
-                
-    			
-  </div>        
-    	</div>
-    	</div>
-     </div>
-        <!-- carrer END -->
-    
+
+</div>
+</div>
     <!-- map start -->
       <div id="contact" class="contact" >
         <div class="section secondary-section">
@@ -1129,10 +1213,7 @@ Ph: +91-044-42994358 <br/>
 });*/
 
 
-            /*$(".slide1").css("background-image","url("+myimages[0].src+")");
-$(".slide2").css("background-image","url("+myimages[1].src+")");
-$(".slide3").css("background-image","url("+myimages[2].src+")");
-$(".slide4").css("background-image","url("+myimages[3].src+")");*/
+
            
             //#main-slider
             $("#logistics_card").flip({reverse: true});
@@ -1148,12 +1229,7 @@ $(".slide4").css("background-image","url("+myimages[3].src+")");*/
          interval : 8000,
          pause: false
      });
-               $("#myCarousel").swiperight(function() {
-      $(this).carousel('prev');
-    });
-   $("#myCarousel").swipeleft(function() {
-      $(this).carousel('next');
-   });
+              
 
    /* var slideHeight = $("#myCarousel").height();
     $('#myCarousel').css('height',slideHeight);
@@ -1228,8 +1304,14 @@ $(".slide4").css("background-image","url("+myimages[3].src+")");*/
       $('#Contactbutton').click(function() {
         $('html, body').animate({
         scrollTop: $("#contact").offset().top - 75
-        }, 200);
+        }, 1200);
       });
+      $('#Teambutton').click(function() {
+        $('html, body').animate({
+        scrollTop: $("#team").offset().top - 75
+        }, 2000);
+      });
+
 
       /*$('#exploreServicesbutton1').click(function() {
         $('html, body').animate({
@@ -1465,6 +1547,7 @@ var selectedlocation = $(this).val();
     $("#services").height(screen.height-223);
     $("#technology").height(screen.height-223);
     $("#careers").height(screen.height-223);
+        $("#team").height(screen.height-223);
     $("#contact").height(screen.height-223);
     }
 
